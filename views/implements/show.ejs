@@ -31,7 +31,7 @@
             <ul class="list-group list-group-flush">
                 <li class="list-group-item text-muted"><%= implement.location%></li>
                 <li class="list-group-item">Submitted by <%= implement.author.username%></li>
-                <li class="list-group-item">₹<%= implement.price%>/night</li>
+                <li class="list-group-item">₹<%= implement.price%>/hour</li>
             </ul>
             <%  if( currentUser && implement.author.equals(currentUser._id))  {%>
             <div class="card-body">
